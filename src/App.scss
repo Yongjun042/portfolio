@@ -1,0 +1,176 @@
+@font-face {
+    font-family: DroidSansMono;
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/npm/nf-droid-sans-mono@2.1.1/Droid Sans Mono Nerd Font Complete Mono.otf") format("opentype");
+}
+
+@import'@fluentui/react/dist/sass/References';
+.App {
+    text-align: left;
+}
+
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.linklist {
+    text-align: center;
+    padding: 0px;
+    li {
+        display: inline-block;
+    }
+}
+
+.linkimg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0.25em;
+    margin: 0.125em;
+}
+
+.Profile-pic {
+    max-width: 200px;
+    float: left;
+}
+
+section {
+    min-height: 100vh;
+    width: 100vw;
+    overflow: visible;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.introduction {
+    background-color: white;
+    height: fit-content;
+    padding: 3em;
+    margin: auto;
+}
+
+.Project-wrap {
+    background-color: white;
+    margin: 4em;
+    padding: 2em;
+    height: fit-content;
+}
+
+.Project-list {
+    max-width: 1000px;
+    min-width: 400px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card {
+    min-width: 350px;
+    height: 350px;
+    content: "";
+    bottom: 0;
+    display: block;
+    margin: 2em;
+    @include ms-depth-16;
+    overflow: hidden;
+}
+
+.Card-img {
+    width: 350px;
+    height: 100%;
+    transition: all .25s ease-in-out;
+    object-fit: cover;
+     :hover>& {
+        transform: scale(1.2);
+    }
+}
+
+.Card-overlay {
+    position: absolute;
+    transform: translate(0%, -100%);
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(to bottom, rgba(#F0F8FF, 0.0), 40%, rgba(#F0F8FF, 1));
+    .Card-content {
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+        margin: 1em;
+        .lang {
+            font-family: DroidSansMono;
+            font-size: 2em;
+            margin: 0px;
+        }
+    }
+}
+
+.Background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
+    //overflow: hidden;
+    .ocean {
+        height: 5%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #015871;
+    }
+    .wave {
+        background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+        position: absolute;
+        top: -198px;
+        width: 6400px;
+        height: 198px;
+        animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+        transform: translate3d(0, 0, 0);
+    }
+    .wave:nth-of-type(2) {
+        top: -175px;
+        animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+        opacity: 1;
+    }
+    @keyframes wave {
+        0% {
+            margin-left: 0;
+        }
+        100% {
+            margin-left: -1600px;
+        }
+    }
+    @keyframes swell {
+        0%,
+        100% {
+            transform: translate3d(0, -25px, 0);
+        }
+        50% {
+            transform: translate3d(0, 5px, 0);
+        }
+    }
+}
