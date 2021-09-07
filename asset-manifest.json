@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.15d30f53.chunk.css",
+    "main.js": "/portfolio/static/js/main.5b79835d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5b79835d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bb0134a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bb0134a.js.map",
+    "static/js/2.a2b9b291.chunk.js": "/portfolio/static/js/2.a2b9b291.chunk.js",
+    "static/js/2.a2b9b291.chunk.js.map": "/portfolio/static/js/2.a2b9b291.chunk.js.map",
+    "static/js/3.236fcb0e.chunk.js": "/portfolio/static/js/3.236fcb0e.chunk.js",
+    "static/js/3.236fcb0e.chunk.js.map": "/portfolio/static/js/3.236fcb0e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.15d30f53.chunk.css.map": "/portfolio/static/css/main.15d30f53.chunk.css.map",
+    "static/js/2.a2b9b291.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a2b9b291.chunk.js.LICENSE.txt",
+    "static/media/carseg.ac7532ff.png": "/portfolio/static/media/carseg.ac7532ff.png",
+    "static/media/discharge.122753e4.png": "/portfolio/static/media/discharge.122753e4.png",
+    "static/media/emaplayer.6f000ec3.png": "/portfolio/static/media/emaplayer.6f000ec3.png",
+    "static/media/file.e72e0702.svg": "/portfolio/static/media/file.e72e0702.svg",
+    "static/media/github.b2d4bff1.svg": "/portfolio/static/media/github.b2d4bff1.svg",
+    "static/media/modernf.8d50304d.png": "/portfolio/static/media/modernf.8d50304d.png",
+    "static/media/phill.f288d347.png": "/portfolio/static/media/phill.f288d347.png",
+    "static/media/quantry.b4b70b3f.png": "/portfolio/static/media/quantry.b4b70b3f.png",
+    "static/media/solid.cf98dc81.png": "/portfolio/static/media/solid.cf98dc81.png",
+    "static/media/twitter.bf36f3f6.svg": "/portfolio/static/media/twitter.bf36f3f6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bb0134a.js",
+    "static/js/2.a2b9b291.chunk.js",
+    "static/css/main.15d30f53.chunk.css",
+    "static/js/main.5b79835d.chunk.js"
+  ]
+}
