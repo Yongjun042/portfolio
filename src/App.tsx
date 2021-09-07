@@ -4,6 +4,7 @@ import github from "./images/github.svg";
 import twitter from "./images/twitter.svg";
 import projlist from './projlist';
 import filecon from "./images/file.svg"
+import profilepic from './images/profile.png';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         </div>
       </div>
       <header className="App-header">
-        <img src="https:github.com/yongjun042.png" className="Profile-pic" alt="profile" />
+        <img src={profilepic} className="Profile-pic" alt="profile" />
         <h1>박용준</h1>
         <p>편리함을 주고싶은 개발자</p>
         <ul className="linklist">
