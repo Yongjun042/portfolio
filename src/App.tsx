@@ -10,6 +10,7 @@ import profilepic from './images/profile.png';
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
       <div className="Background">
         <div className="ocean">
           <div className="wave" />
@@ -17,7 +18,6 @@ function App() {
           <div className="wave" />
         </div>
       </div>
-      <header className="App-header">
         <img src={profilepic} className="Profile-pic" alt="profile" />
         <h1>박용준</h1>
         <p>편리함을 주고싶은 개발자</p>
@@ -28,7 +28,7 @@ function App() {
           <li><a href="mailto: yongjun042@gmail.com">📧</a></li>
         </ul>
       </header>
-      <div>
+      <div className="uts">
         <section>
           <div className="introduction">
             <h2>사용 언어</h2>
