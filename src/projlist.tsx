@@ -5,11 +5,34 @@ import quantry from './images/quantry.png';
 import solid from './images/solid.png';
 import modernf from './images/modernf.png';
 import discharge from './images/discharge.png';
+import iso from './images/iso.png';
+import rat from './images/rat.png';
 import {ReactElement} from 'react';
 
-const projlist: {title: string, desc:string, imgUrl: '.png'|string, altText: string, repoLink:string, lang:string, etc?:ReactElement}[] =[
+const projlist: {title: string, desc:string, imgUrl?: '.png', altText: string, repoLink:string, lang:string, etc?:ReactElement}[] =[
+    {title:"React-Acrylic-Ts",
+    desc:"React-Acrylic 의 Typerscript 버전",
+    imgUrl:rat, 
+    altText: "partial blurred img", 
+    repoLink:"https://github.com/Yongjun042/react-acrylic-ts",
+    lang:" ﯤ",
+    etc:<a href="https://yongjun042.github.io/react-acrylic-ts/">🔗데모</a>
+    },
+    {title:"MDN 문서 번역",
+    desc:"Accessibility_inspector, Simulation 페이지 번역(리뷰 대기중)",
+    altText: "", 
+    repoLink:"https://github.com/mdn/translated-content/pull/1994",
+    lang:""
+    },
+    {title:"IsoFileExtension",
+    desc:"윈도우용 .iso파일 썸네일 확장 프로그램",
+    imgUrl:iso, 
+    altText: "iso file with thumbnail", 
+    repoLink:"https://github.com/Yongjun042/IsoFileExtension",
+    lang:" "
+    },
     {title:"알약 검색 도우미",
-    desc:"알약 특징을 추출해 검색을 쉽게 해주는 프로그램",
+    desc:"사진에서 알약 특징을 추출해 검색을 쉽게 해주는 프로그램",
     imgUrl:phill, 
     altText: "phill analyzed", 
     repoLink:"https://github.com/Yongjun042/HCITeam2",
@@ -39,14 +62,14 @@ const projlist: {title: string, desc:string, imgUrl: '.png'|string, altText: str
     {title:"TagReplacer",
     desc:"가사편집 프로그램",
     imgUrl:"", 
-    altText: "no img", 
+    altText: "", 
     repoLink:"https://github.com/Yongjun042/TagReplacer",
     lang:" "
     },
     {title:"알고리즘 안내 사이트",
     desc:"소프트웨어공학개론 팀 프로젝트",
     imgUrl:"", 
-    altText: "no img", 
+    altText: "", 
     repoLink:"",
     lang:"   "
     },
@@ -60,7 +83,7 @@ const projlist: {title: string, desc:string, imgUrl: '.png'|string, altText: str
     {title:"TagLyrics",
     desc:"네이버 블로그 가사 크롤링, 태그편집",
     imgUrl:"", 
-    altText: "no img", 
+    altText: "", 
     repoLink:"",
     lang:" "
     },

@@ -5,6 +5,7 @@ import twitter from "./images/twitter.svg";
 import projlist from './projlist';
 import filecon from "./images/file.svg"
 import profilepic from './images/profile.png';
+// import Acrylic from 'react-acrylic-ts'
 
 function App() {
   return (
@@ -31,12 +32,13 @@ function App() {
         <section>
           <div className="introduction">
             <h2>사용 언어</h2>
-            <p>C#, C++, JS, TS, Python, SQL</p>
+            <p>C#, C++, JS, TS, Python, SQL, JAVA</p>
             <h2>학력</h2>
             <p>동국대학교 서울캠퍼스</p>
             <p>컴퓨터공학과 전공 2015~2021(예정)</p>
             <h2>수상경력</h2>
             <p>2016 ACM-ICPC(ACM International Collegiate Programming Contest) Daejeon Regional Final Honorable Mention</p>
+            
           </div>
         </section>
         <section>
@@ -46,7 +48,7 @@ function App() {
               {
                 projlist.map(proj => (
                   <div className="Card">
-                  <img className="Card-img" src={proj.imgUrl ? proj.imgUrl : filecon} alt={proj.altText} />
+                  <img className="Card-img" src={proj.imgUrl ? proj.imgUrl : filecon} alt={proj.altText ? proj.altText : "no img"} />
                   <div className="Card-overlay">
                     <div className="Card-content">
                     <h3>{proj.title}</h3>

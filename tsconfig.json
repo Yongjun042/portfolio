@@ -23,5 +23,7 @@
   "include": [
     "src",
     "src/declare.d.ts"
-  ]
+  ],
+  "baseUrl": "types",
+"typeRoots": ["types"],
 }
