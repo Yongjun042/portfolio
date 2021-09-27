@@ -84,7 +84,7 @@ const projlist: {title: string, desc:string, imgUrl?: '.png', altText: string, r
     desc:"네이버 블로그 가사 크롤링, 태그편집",
     imgUrl:"", 
     altText: "", 
-    repoLink:"",
+    repoLink:"https://github.com/Yongjun042/TagLyrics",
     lang:" "
     },
     {title:"modern-fluent",

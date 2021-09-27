@@ -23,7 +23,7 @@ function App() {
         <p>편리함을 주고싶은 개발자</p>
         <ul className="linklist">
           <li><a href="https:github.com/Yongjun042"><img src={github} className="linkimg" alt="github icon" /></a></li>
-          <li><a href="https:twitter.com/Yongjun042"><img src={twitter} className="linkimg" alt="github icon" /></a></li>
+          <li><a href="https:twitter.com/pyj24"><img src={twitter} className="linkimg" alt="github icon" /></a></li>
           <li><a href="https:yongjun042.github.io">🌐</a></li>
           <li><a href="mailto: yongjun042@gmail.com">📧</a></li>
         </ul>
@@ -38,6 +38,7 @@ function App() {
             <p>컴퓨터공학과 전공 2015~2021(예정)</p>
             <h2>수상경력</h2>
             <p>2016 ACM-ICPC(ACM International Collegiate Programming Contest) Daejeon Regional Final Honorable Mention</p>
+            <p>2021년 한국정보기술학회 대학생논문경진대회 동상</p>
             
           </div>
         </section>
