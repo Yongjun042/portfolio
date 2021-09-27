@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.15d30f53.chunk.css",
-    "main.js": "/portfolio/static/js/main.3207a1c4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3207a1c4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8e464c82.chunk.css",
+    "main.js": "/portfolio/static/js/main.d40ed3c1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d40ed3c1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bb0134a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bb0134a.js.map",
     "static/js/2.a2b9b291.chunk.js": "/portfolio/static/js/2.a2b9b291.chunk.js",
@@ -10,24 +10,26 @@
     "static/js/3.236fcb0e.chunk.js": "/portfolio/static/js/3.236fcb0e.chunk.js",
     "static/js/3.236fcb0e.chunk.js.map": "/portfolio/static/js/3.236fcb0e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.15d30f53.chunk.css.map": "/portfolio/static/css/main.15d30f53.chunk.css.map",
+    "static/css/main.8e464c82.chunk.css.map": "/portfolio/static/css/main.8e464c82.chunk.css.map",
     "static/js/2.a2b9b291.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a2b9b291.chunk.js.LICENSE.txt",
     "static/media/carseg.ac7532ff.png": "/portfolio/static/media/carseg.ac7532ff.png",
     "static/media/discharge.122753e4.png": "/portfolio/static/media/discharge.122753e4.png",
     "static/media/emaplayer.6f000ec3.png": "/portfolio/static/media/emaplayer.6f000ec3.png",
     "static/media/file.e72e0702.svg": "/portfolio/static/media/file.e72e0702.svg",
     "static/media/github.b2d4bff1.svg": "/portfolio/static/media/github.b2d4bff1.svg",
+    "static/media/iso.ba40c93f.png": "/portfolio/static/media/iso.ba40c93f.png",
     "static/media/modernf.8d50304d.png": "/portfolio/static/media/modernf.8d50304d.png",
     "static/media/phill.f288d347.png": "/portfolio/static/media/phill.f288d347.png",
     "static/media/profile.995ae18e.png": "/portfolio/static/media/profile.995ae18e.png",
     "static/media/quantry.b4b70b3f.png": "/portfolio/static/media/quantry.b4b70b3f.png",
+    "static/media/rat.384c5d66.png": "/portfolio/static/media/rat.384c5d66.png",
     "static/media/solid.cf98dc81.png": "/portfolio/static/media/solid.cf98dc81.png",
     "static/media/twitter.bf36f3f6.svg": "/portfolio/static/media/twitter.bf36f3f6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bb0134a.js",
     "static/js/2.a2b9b291.chunk.js",
-    "static/css/main.15d30f53.chunk.css",
-    "static/js/main.3207a1c4.chunk.js"
+    "static/css/main.8e464c82.chunk.css",
+    "static/js/main.d40ed3c1.chunk.js"
   ]
 }
