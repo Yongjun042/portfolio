@@ -5,6 +5,7 @@ import twitter from "./images/twitter.svg";
 import projlist from './projlist';
 import filecon from "./images/file.svg"
 import profilepic from './images/profile.png';
+import profilelink from './profilelink'
 // import Acrylic from 'react-acrylic-ts'
 
 function App() {
@@ -22,9 +23,9 @@ function App() {
         <h1>박용준</h1>
         <p>편리함을 주고싶은 개발자</p>
         <ul className="linklist">
-          <li><a href="https:github.com/Yongjun042"><img src={github} className="linkimg" alt="github icon" /></a></li>
-          <li><a href="https:twitter.com/pyj24"><img src={twitter} className="linkimg" alt="github icon" /></a></li>
-          <li><a href="https:yongjun042.github.io">🌐</a></li>
+          <li><p><a href={profilelink.github}><img src={github} className="linkimg" alt="github icon" /></a></p></li>
+          <li><p><a href={profilelink.twitter}><img src={twitter} className="linkimg" alt="twitter icon" /></a></p></li>
+          <li><p><a href={profilelink.blog}>🌐</a></p></li>
           <li><a href="mailto: yongjun042@gmail.com">📧</a></li>
         </ul>
       </header>
