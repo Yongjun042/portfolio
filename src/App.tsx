@@ -6,7 +6,7 @@ import projlist from './projlist';
 import filecon from "./images/file.svg"
 import profilepic from './images/profile.png';
 import profilelink from './profilelink'
-// import Acrylic from 'react-acrylic-ts'
+//import Acrylic from 'react-acrylic-ts'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       </div>
         <img src={profilepic} className="Profile-pic" alt="profile" />
         <h1>박용준</h1>
-        <p>편리함을 주고싶은 개발자</p>
+        <p>편리한 세상을 꿈꾸는 개발자</p>
         <ul className="linklist">
           <li><p><a href={profilelink.github}><img src={github} className="linkimg" alt="github icon" /></a></p></li>
           <li><p><a href={profilelink.twitter}><img src={twitter} className="linkimg" alt="twitter icon" /></a></p></li>
@@ -33,14 +33,13 @@ function App() {
         <section>
           <div className="introduction">
             <h2>사용 언어</h2>
-            <p>C#, C++, JS, TS, Python, SQL, JAVA</p>
+            <p>JS, TS, C#, C++, Python, SQL, JAVA ...</p>
             <h2>학력</h2>
             <p>동국대학교 서울캠퍼스</p>
             <p>컴퓨터공학과 전공 2015~2021(예정)</p>
             <h2>수상경력</h2>
-            <p>2016 ACM-ICPC(ACM International Collegiate Programming Contest) Daejeon Regional Final Honorable Mention</p>
+            <p>2016 ACM-ICPC(ACM International Collegiate Programming Contest) Daejeon Regional Final Honorable Mention #77</p>
             <p>2021년 한국정보기술학회 대학생논문경진대회 동상</p>
-            
           </div>
         </section>
         <section>

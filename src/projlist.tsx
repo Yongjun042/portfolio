@@ -10,6 +10,13 @@ import rat from './images/rat.png';
 import {ReactElement} from 'react';
 
 const projlist: {title: string, desc:string, imgUrl?: '.png', altText: string, repoLink:string, lang:string, etc?:ReactElement}[] =[
+    {title:"Solid-Todo",
+    desc:"Solid Pod을 이용한 Todo 앱(개발중)",
+    imgUrl:"", 
+    altText: "", 
+    repoLink:"https://github.com/Yongjun042/todoshare",
+    lang:"ﯤ  ",
+    },
     {title:"React-Acrylic-Ts",
     desc:"React-Acrylic 의 Typerscript 버전",
     imgUrl:rat, 
@@ -19,7 +26,7 @@ const projlist: {title: string, desc:string, imgUrl?: '.png', altText: string, r
     etc:<a href="https://yongjun042.github.io/react-acrylic-ts/">🔗데모</a>
     },
     {title:"MDN 문서 번역",
-    desc:"Accessibility_inspector, Simulation 페이지 번역(리뷰 대기중)",
+    desc:"Accessibility_inspector, Simulation, Using Media Queries for Accessibility 페이지 번역",
     altText: "", 
     repoLink:"https://github.com/mdn/translated-content/pull/1994",
     lang:""
