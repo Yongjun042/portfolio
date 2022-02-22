@@ -8,9 +8,18 @@ import discharge from './images/discharge.png';
 import iso from './images/iso.png';
 import rat from './images/rat.png';
 import todo from './images/todo.png';
+import eumdle from './images/eumdle.png';
 import {ReactElement} from 'react';
 
 const projlist: {title: string, desc:string, imgUrl?: '.png', altText: string, repoLink:string, lang:string, etc?:ReactElement}[] =[
+    {title:"음들",
+    desc:"2음절 초,중,종성으로 나뉘어진 워들 글자 퍼즐",
+    imgUrl:eumdle, 
+    altText: "todo list", 
+    repoLink:"https://github.com/Yongjun042/eumdle",
+    lang:" ﯤ  ",
+    etc:<a href="https://eumdle.pages.dev/">🔗데모</a>
+    },
     {title:"Solid-Todo",
     desc:"분산형 저장소 Solid Pod을 이용한 Todo 앱",
     imgUrl:todo, 
