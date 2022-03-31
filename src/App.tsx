@@ -35,11 +35,14 @@ function App() {
             <h2>사용 언어</h2>
             <p>JS, TS, C#, C++, Python, SQL, JAVA ...</p>
             <h2>학력</h2>
-            <p>동국대학교 서울캠퍼스</p>
-            <p>컴퓨터공학과 전공 2015~2021(예정)</p>
+            <h3>동국대학교 서울캠퍼스</h3>
+            <p>컴퓨터공학과 전공 2015~2022.03</p>
+            <p>2020 UC Sand Diego Extension 국제교류학생</p>
+            <p>바이오인포매틱스랩 학부연구생</p>
+            <p> </p>
             <h2>수상경력</h2>
             <p>2016 ACM-ICPC(ACM International Collegiate Programming Contest) Daejeon Regional Final Honorable Mention #77</p>
-            <p>2021년 한국정보기술학회 대학생논문경진대회 동상</p>
+            <p>2021년 하계 한국정보기술학회 대학생논문경진대회 동상</p>
           </div>
         </section>
         <section>
